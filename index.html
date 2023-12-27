@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-box">
+      <h1>Sign up</h1>
+      <h3>Enter Your Credentials</h3>
+      <form action="" class="signup-form" id="signup-form" method="post">
+        <input
+          type="text"
+          class="input-fields"
+          placeholder="Username"
+          name="username"
+        />
+        <input
+          type="email"
+          id=""
+          class="input-fields"
+          placeholder="Email"
+          name="email"
+        />
+        <div class="password">
+          <input
+            type="password"
+            id="pwd"
+            class="input-fields"
+            placeholder="Password"
+            name="password"
+          />
+          <div class="toggle"></div>
+        </div>
+        <a href="" class="have-an-acoount">already have an account?</a>
+        <button type="submit" class="input-fields" id="btn">SIGN UP</button>
+        <a href="" class="forgot-password">forgot password</a>
+      </form>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="./validation.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
